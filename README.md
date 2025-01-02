@@ -36,7 +36,3 @@ Execute in the NTL/src directory
 ./configure CXXFLAGS=-fPIC
 make
 sudo make install
-
-Make sure to link with the OpenSSL library when compiling the code:
-
-g++ -o ecdh_forward_secure ecdh_forward_secure.cpp -lssl -lcrypto
