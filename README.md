@@ -1,75 +1,39 @@
 # trinity
 code of trinity 
-◎ Global Description)
-Util/global _ param.hdie unterstü tzung fü r multithreading kann in einem dokument Aktiviert Werden, and the decoration of SHVECalculer Geschwindigkeit was enhanced.
+[Global Description]
+Multithreading support can be enabled in the til/globalic_param. h file to improve SHVE computation speed.
 
-◎ Source information)
-About SHVE C++Vorgeschlagen von
-WEB //github.com/MonashCybersecurityLab/SHVE
+【 Source Information 】
+SHVE C++is derived from
+https://github.com/MonashCybersecurityLab/SHVE
 
-QFVorgeschlagen von
+QF comes from
 https://github.com/vedantk/quotient-filter
 
 
-◎Dependent Bibliothek Installation)
-Abhängige Bibliothek benötigt。 Statische Bibliothek schneller。
+[Dependency Library Installation]
+Libraries that need to be relied upon. Static libraries are faster.
 openssl
 NTL
-GMP
+gmp
 
 
 
-[GMP]
-Installieren der Dependency LibraryM4
-Download sudo apt install m4.
+[gmp]
+Install dependency library m4
+sudo apt install m4
 
-In GMPRoot-Verzeichnis ausführen
-. /configure CXXFLAGS=-fPIC
+Execute in GMP root directory
+./configure CXXFLAGS=-fPIC
 make
-Sudo make install installation
-Using sudo ldconfig
+sudo make install
+sudo ldconfig
 
 
 
-(NTL)
-Executed in NTL/srcCatalogue.
-. /configure CXXFLAGS=-fPIC
+[NTL]
+Execute in the NTL/src directory
+./configure CXXFLAGS=-fPIC
 make
-Sudo make install installation
+sudo make install
 
-◎ Global Description)
-Util/global _ param.hdie unterstü tzung fü r multithreading kann in einem dokument Aktiviert Werden, and the decoration of SHVECalculer Geschwindigkeit was enhanced.
-
-◎ Source information)
-About SHVE C++Vorgeschlagen von
-WEB //github.com/MonashCybersecurityLab/SHVE
-
-QFVorgeschlagen von
-https://github.com/vedantk/quotient-filter
-
-
-◎Dependent Bibliothek Installation)
-Abhängige Bibliothek benötigt。 Statische Bibliothek schneller。
-openssl
-NTL
-GMP
-
-
-
-[GMP]
-Installieren der Dependency LibraryM4
-Download sudo apt install m4.
-
-In GMPRoot-Verzeichnis ausführen
-. /configure CXXFLAGS=-fPIC
-make
-Sudo make install installation
-Using sudo ldconfig
-
-
-
-(NTL)
-Executed in NTL/srcCatalogue.
-. /configure CXXFLAGS=-fPIC
-make
-Sudo make install installation
